@@ -1,0 +1,78 @@
+/* Font Famlily */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{font-family: 'Roboto', sans-serif;}
+
+/* button */
+.mybtn1{background-color: #0076ce;color: #fff;border: 1px solid #0076ce;padding: 10px 20px;}
+.mybtn1:hover{background-color: #006bbd;}
+.mybtn2{background-color: none;color: #0076ce;border: 1px solid #0076ce;padding: 10px 20px;margin-left: 15px;}
+.mybtn2:hover{background-color: #00bfff2c;}
+
+
+.mainmenu .menus{margin: 0 auto;}
+.searchbtn{display: flex;align-items: center;}
+.menubtn{padding-right: 8px;}
+.searchbar{padding-right: 250px;}
+
+ /* Second Nav */
+.dropdown-hover:hover>.dropdown-menu {display: inline-block;}
+.dropdown-hover>.dropdown-toggle:active {/*Without this, clicking will make it sticky*/pointer-events: none;}
+/* second nav */
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{position: absolute; right: 0;left: initial;}
+
+.menuthree{padding-top: 25px;padding-left: 250px;padding-right: 250px;background-color: #ececec;}
+.top-icon{font-size: 25px;}
+.top-text{font-size: 16px;padding-top: 5px;font-weight: 500;}
+.top-text:hover{color: #0672cb;}
+.mark1{color: #0076ce;padding-left: 10px;}
+.bnrcontent{position: absolute;top: 30%;}
+.wlcmhead{padding-bottom: 30px;}
+.wlcmsec{background-color: #fff;box-shadow: 4px 4px 16px #bfbfbf;padding: 30px;}
+.bottomlink{color: #0076ce;}
+.aliendiv{padding-top: 50px;padding-bottom: 50px;}
+.exclmark{padding-left: 20px;padding-right: 20px;}
+.aliensec{padding-left: 130px;padding-right: 130px;}
+.wlcmdiv{background-color: #ececec;padding-top: 50px;padding-bottom: 50px;}
+.aliendiv2{background-color: #ececec;}
+.media-icon{font-size: 20px;color: #0076ce;}
+.dellsupp{padding-top: 50px;padding-bottom: 50px;}
+.dellsec2{padding-left: 50px;padding-right: 50px;}
+.line1{border-right: 1px solid #000;}
+.aliendiv3{padding-top: 50px;padding-bottom: 50px;}
+.fixedbtn{position: fixed;bottom: 20px;right: 20px;}
+.fixbtn{background-color: #0076ce;color: #fff;border: 1px solid #0076ce;padding: 10px 20px;}
+.fixbtn:hover{background-color: #006bbd;}
+.fixicon{padding-right: 10px;}
+.footer{background-color: #ececec;padding-top: 50px;padding-bottom: 50px;}
+.footer h5{color: #585858;font-size: 18px;}
+.footer li{list-style-type: none;color: #7c7c7c;font-size: 14px;line-height: 27px;}
+.linkbtm{padding-top: 40px;}
+
+
+/* / ---------- Media ---------- / */
+/* ##Device = Desktops, ##Screen = 1281px to higher resolution desktops */
+@media (min-width:1281px) {
+}
+/* / ##Device = Laptops, Desktops, ##Screen = B/w 1025px to 1280px / */
+@media (min-width:1025px) and (max-width:1280px) {
+}
+/* / ##Device = Tablets, Ipads (portrait), ##Screen = B/w 768px to 1024px / */
+@media (min-width:768px) and (max-width:1024px) {
+.navbar-expand-lg .navbar-nav .dropdown-menu{right: 500px;}
+.menuthree{padding-left: 10px;padding-right: 10px;}
+.bnrcontent{top: 10%;}
+.aliensec{padding-left: 10px;padding-right: 10px;}
+.aliendiv2{padding-top: 50px;padding-bottom: 50px;}
+}
+/* / ##Device = Tablets, Ipads (landscape), ##Screen = B/w 768px to 1024px / */
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
+}
+/* / ##Device = Low Resolution Tablets, Mobiles (Landscape), ##Screen = B/w 481px to 767px / */
+@media (min-width:481px) and (max-width:767px) {
+
+}
+/* / ##Device = Most of the Smartphones Mobiles (Portrait), ##Screen = B/w 320px to 479px / */
+@media (min-width:320px) and (max-width:480px) {
+
+}
